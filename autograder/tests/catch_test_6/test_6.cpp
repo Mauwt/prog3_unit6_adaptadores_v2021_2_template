@@ -23,7 +23,7 @@ static void test_6() {
     }
     string name_tobe_found;
     getline(cin, name_tobe_found);
-    auto a1 = find_in_stack (s1, [=](auto a) { return a.get_nombre() == name_tobe_found; });
+    auto a1 = find_in_stack (s1, [=](auto a) -> bool { return a.get_nombre() == name_tobe_found; });
     cout << a1.get_nombre() << " " << a1.get_apellido() << " " << a1.get_nota() << endl;
 }
 
