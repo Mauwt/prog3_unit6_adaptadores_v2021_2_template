@@ -14,5 +14,5 @@ static void test_3() {
 }
 
 TEST_CASE("Question #3") {
-    execute_test("test_3.in", question_3);
+    execute_test("test_3.in", test_3);
 }
