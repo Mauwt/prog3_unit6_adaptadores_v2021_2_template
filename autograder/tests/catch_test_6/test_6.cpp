@@ -19,7 +19,7 @@ static void test_6() {
         cin >> nombre;
         cin >> apellido;
         cin >> nota;
-        s1.push_back(alumno_t{nombre, apellido, nota});
+        s1.push(alumno_t{nombre, apellido, nota});
     }
     string name_tobe_found;
     getline(cin, name_tobe_found);
