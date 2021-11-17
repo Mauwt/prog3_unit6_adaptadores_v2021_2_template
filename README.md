@@ -157,7 +157,7 @@ T find_in_stack(stack<T> s, function<bool(T)> cmpr);
 ```
 
 ```cpp
-// Crear un stack basado en un deque de alumnos
+// Crear un stack basado en alumnos
 auto a1 = find_in_stack (stack, [](alumno_t a) { return a.apellido == "Perez"; });
 ```
 
@@ -179,6 +179,7 @@ while (n-- > 0) {
 string name_tobe_found;
 get_line(cin, name_tobe_found);
 a1 = find_in_stack (s1, [=](auto a) { return a.get_nombre() == name_tobe_found; });
+cout << a1.get_nombre() << " " << a1.get_apellido() << " " << a1.get_nota() << endl;
 ```
 
 ## Question #7 - complete_equation (Opcional)
