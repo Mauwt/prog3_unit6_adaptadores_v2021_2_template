@@ -14,4 +14,4 @@ source='cppcheck.cpp
   ../P6.h ../P6.cpp
   '
 
-cppcheck ${source} -x c++ --enable=all --verbose --error-exitcode=1 --suppressions-list=suppressions.txt
+cppcheck ${source} -x c++ --enable=all --verbose --error-exitcode=1 --suppressions-list=suppressions.txt --check-config
