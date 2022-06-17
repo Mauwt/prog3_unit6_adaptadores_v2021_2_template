@@ -1,5 +1,5 @@
 # Task #7: Estructuras Basicas Adaptadores  
-**course:** Programación Orientada a Objetos II  
+**course:** Programación III 
 **unit:** 6  
 **cmake project:** poo2_unit6_adaptadores_poo_v2021_2
 ## Instructions
